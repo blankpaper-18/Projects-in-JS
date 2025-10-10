@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ecommerce Cart Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header>
+    <div class="logo">MyShop</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="cart.html">Cart <span id="itemCount">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Your Cart</h1>
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Unit Price</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody id="cartTableBody">
+        <!-- Cart items rendered here by JS -->
+      </tbody>
+    </table>
+    
+    <div class="cart-summary">
+      <h2>Total Amount: <span id="totalAmount">₹0</span></h2>
+      <button class="btn-checkout">Checkout</button>
+    </div>
+  </main>
+  
+  <footer>
+    &copy; 2025 MyShop All rights reserved.
+  </footer>
+
+  <!-- Include JS after HTML -->
+  <script src="cart.js"></script>
+</body>
+</html>
