@@ -1,0 +1,76 @@
+body {
+    background-image: url('to-do-list-icon-buy-this-icon-for--0-48-1.png');
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #110202;
+}
+
+.container, .main-container, .input-container, #todo-list, h1, input, button {
+    background: #100202;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(25, 118, 210, 0.25);
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 18px 0;
+    margin-bottom: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.input-container {
+    background: #3ba0ff;
+    border: 2px solid #2d78fb;
+}
+
+input {
+    background: #fff;
+    border: 2px solid #43a047;
+    color: #222;
+    font-weight: bold;
+}
+
+button {
+    background: #bd0606;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #07ed2d;
+    color: #fff;
+}
+
+ul#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #00bcd4;
+    border: 3px solid #0097a7;
+}
+
+ul#todo-list li {
+    background: #fff;
+    border: 2px solid #d32f2f;
+    border-radius: 7px;
+    margin: 10px 0;
+    padding: 12px;
+    color: #1976d2;
+    font-weight: bold;
+}
