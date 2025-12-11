@@ -1,18 +1,18 @@
-/* Reset CSS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Variables */
+
 :root {
   --primary-color: #ff6f61;
   --accent-color: #e0f7fa;
   --text-color: #333;
 }
 
-/* Body styles */
+
 body {
   font-family: Arial, sans-serif;
   color: var(--text-color);
@@ -20,7 +20,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header and navigation */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@ header {
   cursor: pointer;
 }
 
-/* Hero section */
+
 .hero {
   text-align: center;
   padding: 36px 18px;
